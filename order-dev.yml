@@ -8,14 +8,22 @@ spring:
     url: jdbc:mysql://192.168.1.143:3306/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 192.168.1.141
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+server:
+  port: 8900
+  
 env:
   dev2
 
 girl:
   name: xiaoxiao
-  age: 21
+  age: 20 
