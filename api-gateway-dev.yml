@@ -1,8 +1,10 @@
 zuul:
   routes:
-    myProduct:
-      path: /myProduct/**
-      serviceId: product
+#     myProduct:
+#       path: /myProduct/**
+#       serviceId: product
+      #简洁写法
+      product: /yxm/**
       
 spring:
   rabbitmq:
