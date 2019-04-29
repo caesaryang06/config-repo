@@ -8,8 +8,8 @@ zuul:
       #简洁写法 路由映射关系
       product: /yxm/**
   #配置不允许访问的路由
-  ignored-patterns:
-    - /**/product/list      
+#   ignored-patterns:
+#     - /**/product/list      
       
 spring:
   rabbitmq:
