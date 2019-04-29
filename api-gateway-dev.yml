@@ -3,6 +3,8 @@ zuul:
 #     myProduct:
 #       path: /myProduct/**
 #       serviceId: product
+      #设置敏感头信息  为空所有头信息都不拦截 不设置默认会拦截cookie
+#       sensitiveHeaders:
       #简洁写法 路由映射关系
       product: /yxm/**
   #配置不允许访问的路由
