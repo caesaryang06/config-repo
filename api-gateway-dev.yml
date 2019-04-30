@@ -10,7 +10,8 @@ zuul:
   #配置不允许访问的路由
 #   ignored-patterns:
 #     - /**/product/list      
-      
+# 设置全局的敏感头配置 为空头信息都不拦  
+  sensitive-headers:      
 spring:
   rabbitmq:
     host: 192.168.1.143
