@@ -2,6 +2,7 @@ girl:
   name: xiaoxia
   age: 18
   
+spring:  
   rabbitmq:
     host: 192.168.1.143
     port: 5672
